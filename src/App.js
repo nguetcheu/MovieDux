@@ -4,13 +4,17 @@ import "./styles.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MovieGrid from "./components/MovieGrid";
+import Counter from "./components/Counter";
+import NameList from "./components/NameList";
+import Toggle from "./components/Toggle";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <Header></Header>
-        <MovieGrid></MovieGrid>
+        <NameList></NameList>
+        <Toggle></Toggle>
       </div>
       <Footer></Footer>
     </div>
